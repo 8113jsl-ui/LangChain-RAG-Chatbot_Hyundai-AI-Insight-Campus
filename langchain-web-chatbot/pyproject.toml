@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "langchain-web-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Hyundai_AI_Campus <8113jsl@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langgraph = "^1.2.15"
+pydantic = "^2.14.1"
+grandalf = "^0.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
