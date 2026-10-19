@@ -1,0 +1,24 @@
+# 비밀 정보
+.env
+.env.*
+!.env.example
+
+# 가상환경 / 캐시
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.gradio/
+.vscode/
+.claude/
+
+# 로컬 산출물
+chat_log.txt
+*.faiss
+*.pkl
+*.zip
+temp.ipynb
+
+# 외부 저작물 (직접 받아서 data/에 넣기)
+data/Samsung_Card_Manual_Korean_1.3.pdf
